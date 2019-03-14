@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomSeekBar">
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="progressValue" format="float"/>
+        <attr name="valueStep" format="float"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AirMouse</string>
+    <string name="title_activity_air_mouse">AirMouse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_server_disconnect">Disconnect</string>
+
+    <string name="action_toggle_keyboard">Toggle Keyboard</string>
+
+    <string name="action_reset_settings">Reset settings</string>
+</resources>

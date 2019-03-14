@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_air_remote"
+    tools:context="uk.co.kubatek94.airmouse.AirRemoteFragment">
+
+    <uk.co.kubatek94.airmouse.view.AirRemoteView
+        style="@style/TouchPad"
+        android:tag="KEYBOARD_MANAGER"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/airRemoteView"
+        android:imeOptions="actionSend"/>
+
+</FrameLayout>

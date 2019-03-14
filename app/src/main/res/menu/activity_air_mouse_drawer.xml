@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:id="@+id/air_mouse_drawer_menu" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_servers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Servers" />
+    </group>
+
+    <item android:id="@+id/item_connected_server" android:title="AirMouseServer (192.168.0.17)" android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_connected_server_touchpad"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="TouchPad" />
+                <item
+                    android:id="@+id/item_connected_server_airremote"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="AirRemote" />
+                <item
+                    android:id="@+id/item_connected_server_settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+            </group>
+        </menu>
+    </item>
+</menu>
